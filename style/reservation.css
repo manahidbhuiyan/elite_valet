@@ -262,16 +262,13 @@
 }
 
 .card-top-left .icon {
-    margin-right: 20px;
-}
-
-.card-top-left .icon i {
     width: 44px;
     height: 44px;
     border: 1px;
     border-radius: 5px !important;
     background: rgba(184, 211, 238, 0.2);
-    padding: 14px;
+    padding: 9px;
+    margin-right: 20px;
 }
 
 .card-top-left .text p {
