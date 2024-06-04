@@ -15,7 +15,7 @@
     <!-- fontawesome link -->
     <script src="https://kit.fontawesome.com/722bf37857.js" crossorigin="anonymous"></script>
     <!-- title -->
-    <title>Elite Valet - reservation</title>
+    <title>Elite Valet - connection</title>
 </head>
 
 <body>
@@ -40,13 +40,13 @@
                             Mon compte
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Profil</a></li>
-                            <li><a class="dropdown-item" href="#">Réservations</a></li>
+                            <li><a class="dropdown-item" href="profile2.html">Profil</a></li>
+                            <li><a class="dropdown-item" href="reservation.html">Réservations</a></li>
                             <li>
-                                <a class="dropdown-item" href="#">Historique des réservations</a>
+                              <a class="dropdown-item" href="historique.html">Historique des réservations</a>
                             </li>
                             <li><a class="dropdown-item" href="#">Deconnexion</a></li>
-                        </ul>
+                          </ul>
                     </li>
                 </ul>
             </div>
@@ -56,22 +56,53 @@
     <!-- mobile top -->
     <div class="left-side-top mobile-top">
         <div class="left-side-top-part">
-            <button class="left-side-top-btn"><i class="fa-solid fa-file-export"></i></button>
+            <a href="checkout.html" class="left-side-top-btn"><i class="fa-solid fa-file-export"></i></a>
             <span class="btn-ranking">01</span>
-        </div>
-        <div class="left-side-top-part">
-            <button class="left-side-top-btn"><i class="fa-solid fa-gear"></i></button>
+          </div>
+          <div class="left-side-top-part">
+            <a href="service.html" class="left-side-top-btn"><i class="fa-solid fa-gear"></i></a>
             <span class="btn-ranking">02</span>
-        </div>
-        <div class="left-side-top-part">
-            <button class="left-side-top-btn"><i class="fa-solid fa-shield"></i></button>
+          </div>
+          <div class="left-side-top-part">
+            <a href="option.html" class="left-side-top-btn"><i class="fa-solid fa-shield"></i></a>
             <span class="btn-ranking">03</span>
-        </div>
-        <div class="left-side-top-part">
-            <button class="left-side-top-btn active-btn"><i class="fa-solid fa-user"></i></button>
+          </div>
+          <div class="left-side-top-part">
+            <a href="connection.html" class="left-side-top-btn active-btn"><i class="fa-solid fa-user"></i></a>
             <span class="btn-ranking active">04</span>
-        </div>
+          </div>
     </div>
+      <!-- mobile top cart -->
+  <div class="mobile-top-cart">
+    <div class="mobile-top-cart-inner">
+      <div class="card-top mb-2">
+        <div class="card-top-left">
+          <div class="icon">
+          <img src="./images/icon/blu-plane.png" alt="">
+          </div>
+          <div class="text">
+            <p>Bordeaux-Merignac</p>
+            <span>05/20/2024 à 08:00</span>
+          </div>
+        </div>
+        <div class="card-top-left">
+          <div class="icon" style="background-color: #F9F3FF;">
+           <img src="./images/icon/purple-plane.png" alt="">
+          </div>
+          <div class="text">
+            <p>Bordeaux-Merignac</p>
+            <span>05/20/2024 à 08:00</span>
+          </div>
+        </div>
+        <hr class="bottom-hr">
+        <div class="first-card-bottom">
+          <p>Parking+Voiturier</p>
+          <p style="color: #D63000;">€58.10</p>
+        </div>
+      </div>
+    </div>
+    <span class="bottom-arrow"><i class="fa-solid fa-chevron-down"></i></span>
+  </div>
     <!-- main area -->
     <div class="main">
         <div class="container-fluid">
@@ -79,21 +110,21 @@
             <div class="left-side">
                 <div class="left-side-top large-top">
                     <div class="left-side-top-part">
-                        <button class="left-side-top-btn"><i
-                                class="fa-solid fa-file-export"></i>&nbsp;Réservation</button>
+                        <a href="checkout.html" class="left-side-top-btn"><i
+                                class="fa-solid fa-file-export"></i>&nbsp;Réservation</a>
                         <span class="btn-ranking">01</span>
                     </div>
                     <div class="left-side-top-part">
-                        <button class="left-side-top-btn"><i class="fa-solid fa-gear"></i>&nbsp;Services</button>
+                        <a href="service.html" class="left-side-top-btn"><i class="fa-solid fa-gear"></i>&nbsp;Services</a>
                         <span class="btn-ranking">02</span>
                     </div>
                     <div class="left-side-top-part">
-                        <button class="left-side-top-btn"><i class="fa-solid fa-shield"></i>&nbsp;Options</button>
+                        <a href="option.html" class="left-side-top-btn"><i class="fa-solid fa-shield"></i>&nbsp;Options</a>
                         <span class="btn-ranking">03</span>
                     </div>
                     <div class="left-side-top-part">
-                        <button class="left-side-top-btn active-btn"><i
-                                class="fa-solid fa-user"></i>&nbsp;Connexion</button>
+                        <a href="connection.html" class="left-side-top-btn active-btn"><i
+                                class="fa-solid fa-user"></i>&nbsp;Connexion</a>
                         <span class="btn-ranking active">04</span>
                     </div>
                 </div>

@@ -64,7 +64,7 @@
     margin: 0 !important;
 }
 
-.sidebar ul li {
+.sidebar ul li a{
     margin: 5px 0;
     padding: 16px 20px 16px 70px;
     cursor: pointer;
@@ -245,6 +245,22 @@
 
 /* responsive */
 
+@media (min-width:576px) and (max-width:991px){
+    .content {
+        padding: 40px 50px;
+    } 
+    .content-bottom {
+        flex-direction: column;
+    }
+    .form-title2{
+        font-size: 24px !important;
+    }
+    .form-modifier {
+        margin-top: 3px;
+        font-size: 18px;
+    }
+}
+
 
 @media (max-width:500px){
     .form-top{
@@ -252,7 +268,7 @@
     }
     .form-title {
         font-size: 20px !important;
-        margin: 4px 0 0 0 !important;
+        margin: 0 !important;
     }
     .form-title2 {
         font-size: 20px !important;
