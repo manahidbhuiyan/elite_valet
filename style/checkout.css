@@ -436,6 +436,9 @@ body {
         display: block;
         position: relative;
     }
+    .show-when-click{
+        transition: 0.5s ease-out;
+    }
     .mobile-top-cart-inner{
         border: 1px solid #E1E5E6;
         border-radius: 12px;
@@ -445,6 +448,23 @@ body {
         display: flex;
         gap: 20px;
         margin-bottom: 15px;
+    }
+    .mobile-top-cart .card{
+        border: 1px solid #E1E5E6;
+        border-radius: 12px;
+        padding: 15px 16px;
+    }
+    .delete-vos-options{
+        width: 26px;
+        height: 26px;
+        border-radius: 100%;
+        background-color: #D63000;
+        color: #fff;
+        text-align: center;
+        font-size: 14px;
+        margin-top: 0px;
+        padding-top: 2px;
+        cursor: pointer;
     }
     .bottom-arrow {
         position: absolute;
@@ -457,6 +477,12 @@ body {
         color: white;
         bottom: 15px;
         left: 48%;
+    }
+    .show-when-click{
+        display: none;
+    }
+    .initially-close{
+        display: none;
     }
 
     .reservation {
